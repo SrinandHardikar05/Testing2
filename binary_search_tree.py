@@ -39,7 +39,3 @@ class BST:
 
     def delete(self,key):
         self.root = self._delete(self.root, key)
-
-    def _delete(self, node, key):
-        if not node:
-            return node
